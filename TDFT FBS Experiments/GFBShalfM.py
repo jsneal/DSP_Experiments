@@ -1,4 +1,5 @@
 """
+THESE COMMENTS DO NOT APPLY TO THE FILE ANYMORE AND ARE OUTDATED. DO NOT BE DISTRACTED BY THEM.
 I used Audacity to read record the audio at 44.1 kHz (recommended by a google search for audio processing):
 
 Source: http://www.lavryengineering.com/pdfs/lavry-white-paper-the_optimal_sample_rate_for_quality_audio.pdf
