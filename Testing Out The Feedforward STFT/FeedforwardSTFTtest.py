@@ -55,7 +55,7 @@ for i in range(0, 100):
     fftBasedTimeIncrements[i] = duration
 
 N = 8
-inputSignal = speechSample[0:99]
+inputSignal = speechSample[0:100]
 FFSTFT = np.zeros(shape=(100,8), dtype='complex')
 
 # FeedForward Technique
@@ -122,15 +122,16 @@ plt.figure(1)
 plt.plot(fftBasedTimeIncrements)
 plt.plot(FeedForwardTimeIncrements)
 plt.title('Speed Over 100 iterations')
-#plt.axis([0, 120, 0, 6*(10^(-5))])
+plt.axis([0, 120, 0, .00012])
 plt.ylabel('Time (s)')
 # Each iteration corresponding to the computation of 1 column of the STFT
 plt.xlabel('Iterations')
 plt.legend(('FFT-based', 'Feedforward Technique'))
 plt.show()
 
-
+"""
 fftBasedMean = np.mean(fftBasedTimeIncrements);
 print('The Average Time to Compute an STFT column for FFT-based Technique is ' + str(fftBasedMean))
 feedforwardMean = np.mean(FeedForwardTimeIncrements);
 print('The Average Time to Compute an STFT column for Feedforward Technique is ' + str(feedforwardMean))
+"""
