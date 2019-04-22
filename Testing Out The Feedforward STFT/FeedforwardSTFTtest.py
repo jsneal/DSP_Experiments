@@ -29,6 +29,9 @@
     This python script should work out-of-the-box if you have all of the dependencies and my audio file (OneMustHaveAMindOfWinter.py). 
     If something is wrong, submit an issue and I will try to address it when I can.
 
+    My next step is simply coding out the Cooley-Turkey Algorithm and comparing it with the FFSTFT. I think the FFSTFT may succeed in this case, but perhaps the Cooley-Turkey Algorithm
+    will be optimized at runtime.
+
 """
 import time
 import numpy as np
