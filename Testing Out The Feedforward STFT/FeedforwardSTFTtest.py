@@ -26,7 +26,7 @@
     All in all, I am unsure as to how Figure 5 was produced in this paper ("The Feedforward Short-Time Fourier Transform"). Perhaps it also has something to do with the architecture involved.
     My next step is to investigate the Intel i3 further and compare it with the i7.
 
-    This python script should work out-of-the-box if you have all of the dependencies and my audio file (OneMustHaveAMindOfWinter.py). 
+    This python script should work out-of-the-box if you have all of the dependencies and my audio file (OneMustHaveAMindOfWinter.wav). 
     If something is wrong, submit an issue and I will try to address it when I can.
 
     My next step is simply coding out the Cooley-Turkey Algorithm and comparing it with the FFSTFT. I think the FFSTFT may succeed in this case, but perhaps the Cooley-Turkey Algorithm
